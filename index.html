@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ERSTE SCHRITTE MIT BRACKETS</title>
+        <meta name="description" content="Ein interaktiver Wegweiser für die ersten Schritte mit Brackets.">
+        <link rel="stylesheet" href="main.css">
+        <style>
+            body {
+               
+        </style>
+    </head>
+    
+   <body style="background-color:blue">
+       
+       
+        <div id="Start">
+       
+        <h1 style="color: floralwhite">Sternchen Rallye </h1>
+            <p style="color: white">In unserer Rallye geht es darum Rätsel zu lösen und QR kodes zu scannen.Bei unserer Rallye dürfen zwischen 3 und 5 Personen mit machen.Ihr braucht digitale Geräte und Stift und Papier, wir wünschen euch viel spaß bei unserer Rallye!</p>
+            
+            <img src="Map.jpeg" width="600px">
+            <br>  <br> 
+        <button onclick="Aufgabe1()"style="background-color: deepskyblue;border-radius: 7px">Leg ,los!</button>
+        </div>
+           <br> 
+        <div id="Aufgabe1" style="display: none">
+        <img src="dana1.jpeg" width=200px>  
+        <p style="color: white">Aufgabe 1: Kletter in 10 sekunden die Rutsche hoch.</p>
+        <p style="color: white">geschafft:</p>
+        <button onclick="Aufgabe2()"style="background-color: forestgreen;border-radius: 7px">ja</button> <button onclick="Wiederholung1()"style="background-color:crimson;border-radius: 7px">nein</button>
+        </div> 
+            
+            <div id="Wiederholung1" style="display: none">
+            <p>Oh, schade versuche es noch einmal</p>
+            </div>
+            
+        <div id="Aufgabe2"style="display: none"> 
+        <p style="color: white">Aufgabe 2: Versuche in 5 sekunden die Rutsche mit dem Bauch runter zu Rutschen.</p>
+        <p style="color: white">geschafft:</p>
+        <button onclick="Aufgabe3()" style="background-color: forestgreen; border-radius: 7px"> ja </button> <button onclick="Wiederholung2()"style= "background-color: crimson; border-radius: 7px">nein</button>
+        </div>   
+       
+            
+        <div id="Wiederholung2" style="display: none">
+        <p>Versuche es noch einmal</p>
+        </div>
+                
+                
+        <div id="Aufgabe3"style="display: none">
+        <h1 style="color: floralwhite"> </h1>
+        <p style="color: white">Aufgabe 3: Zählt die Steinbögen ohne in den Keller zu gehn.</p>
+        <p style="color: white">geschafft:</p>
+         <br>
+            
+        <Button onclick="Aufgabe4()" style="background-color: forestgreen; border-radius: 7px">ja</Button>
+        <button style="background-color: crimson;border-radius: 7px">nein </button> 
+            <br>
+            <br>
+        <img src="dana%202.jpeg" width=200px>
+        </div>
+   
+            
+            
+            
+       
+            
+            
+        
+       
+       
+       
+       
+       
+       
+       <div id="Aufgabe4" style="display: none">
+<h1 style="color: red">Aufgabe4</h1>
+       <p style="color: white">Aufgabe 4:Hänge dich 25 sekunden lang an die Latte</p>
+       <p style="color: white">Habe ich geschafft?</p>
+       <button onclick="Aufgabe5()" style="background-color: green;border-radius: 9px;">ja</button>  <button style="background-color: red;border-radius: 9px;">nein</button>
+       <br>
+       <br>
+       <img src="B2.jpeg" width="450">
+       </div>
+       
+       <div id="Aufgabe5" style="display: none">
+      <h1 style="color: red">Aufgabe5</h1>
+       <p style="color: white">
+           <img src="b1.jpeg" width="275">
+           <br>
+           <br>
+           Kuck von da aus auf die Schule an die Fenster,kuck dan was an den Fenster geklebt ist,wen du das gefunden hast nimm dan von dem wort den 8 den 7 und den 9 Buchstaben und dann noch zwei a und ein t  i n h r t e h s c h l u f o aus den Buchstaben ergibt ein wort das dir den Nächsten Hinweis. </p>
+       <p style="color: white">Habe ich geschafft?</p>
+       <button onclick="Aufgabe6()" style="background-color: green;border-radius: 9px;">ja</button>  <button style="background-color: red;border-radius: 9px;">nein</button>
+       <br>
+       <br>
+       
+       </div>
+   
+       
+       
+       
+       
+        <div id="Aufgabe6" style="display: none">
+      <h1 style="color: red">Aufgabe6</h1>
+       <p style="color: white"></p>
+       <p style="color: white">bin ich im altbau hinterschulhof?</p>
+       <button  style="background-color: green;border-radius: 9px;" onclick="hinweis6()">ja</button>  <button style="background-color: red;border-radius: 9px;">nein</button>
+       <br>
+       <br>
+       </div>
+        
+       <div id="hinweis6" style="display:none">
+        <img src="ender2.jpeg" width="325">
+          <p style="color: white">nimm von wort 1 eins den dritten buchstaben dan ein o und dan noch von dem vierten wort den dritten buchstaben </p> 
+       </div>
+       
+       
+       
+        <div id="Aufgabe7" style="display: none">  
+       <p> Aufgabe 7:messe das Tor und sag uns wie groß das Tor ist
+        </p>
+                 <p></p>
+        <button onclick="aufgabe8()" style="background-color:lightgreen;border-radius: 7px">ja</button><button style="background-color:crimson;border-radius: 7px">nein</button>
+        
+        <img src="fieete.jpeg" width=350>    
+        </div>
+        <div id="Aufgabe8" style="display: none">
+        <p>Aufgabe 8:versuche die Fliesen in 5 minuten zu zählen!</p>
+        <img src="fiete3.jpeg" width="264" >
+        
+        
+        <p>
+        </p>
+        <button style="background-color: green; border-radius: 7px;" onclick="ende()">Habe ich geschafft!</button>
+        </div>                                                                      
+        
+        
+        <div id="ende" style="display: none">
+        <p>
+        </p>
+        <h1 style="color: fuchsia">Super du hast die Rallye bestanden Klasse!!!!!!!!!!.</h1>
+        </div>                                                                      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+       
+       
+   <script>
+       
+       function Aufgabe1() {
+        document.getElementById("Aufgabe1").style.display="block";    
+        }
+            
+             
+        function Wiederholung1() {
+        document.getElementById("Wiederholung1").style.display="block";    
+        }
+            
+        function Aufgabe2() {
+        document.getElementById("Aufgabe2").style.display="block";
+             document.getElementById("Wiederholung1").style.display="none";    
+        }     
+       
+             
+        function Wiederholung2() {
+        document.getElementById("Wiederholung2").style.display="block";    
+        }     
+            
+            
+        function Aufgabe3() {
+        document.getElementById("Aufgabe3").style.display="block"; 
+        document.getElementById("Wiederholung2").style.display="none";
+        }         
+  
+       
+       function Aufgabe4() {
+           document.getElementById("Aufgabe4").style.display="block";
+       }
+       
+       
+       
+       
+       function Aufgabe5() {
+           document.getElementById("Aufgabe5").style.display="block";
+       }
+       
+       
+        function Aufgabe6() {
+           document.getElementById("Aufgabe6").style.display="block";
+       }
+       
+       function hinweis6() {
+            document.getElementById("hinweis6").style.display="block";
+       }
+       
+         function aufgabe8() {
+                
+                document.getElementById("Aufgabe8").style.display="block"
+            } 
+        function ende() {
+                
+                document.getElementById("ende").style.display="block"
+            } 
+          
+       
+       
+       
+       
+       </script>
+       
+       
+   </body>
+</html>
